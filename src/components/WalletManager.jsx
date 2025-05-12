@@ -32,7 +32,8 @@ const WalletManager = () => {
 
   const getBalance= async (publicKey, id)=>{
     try{
-       const response = await axios.post("https://eth-mainnet.g.alchemy.com/v2/XwwqtVMcPjZ3-B0P_dCYUKyT6G0er2nU", 
+      const alchemyUrl = import.meta.env.VITE_ALCHEMY_URL;
+       const response = await axios.post(alchemyUrl, 
         {
           "jsonrpc": "2.0",
           "method": "eth_getBalance",
