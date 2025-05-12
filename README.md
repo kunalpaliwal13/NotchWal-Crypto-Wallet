@@ -1,12 +1,52 @@
-# React + Vite
+![image](https://github.com/user-attachments/assets/a3004415-85d1-4e5e-8503-5cc95699d1b6)# NotchWal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🦊 Ethereum Wallet App (Vite + React)
+A lightweight Ethereum wallet generator built with React + Vite. It creates a new Ethereum wallet in-browser and fetches its balance using the ethers.js library.
 
-Currently, two official plugins are available:
+⚙️ Features
+- Generate a public/private key pair (Ethereum wallet)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Show public address
 
-## Expanding the ESLint configuration
+- Display ETH balance (via Alchemy)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Built with React + Vite
+
+🛠️ Tech Stack
+- Vite
+
+- React
+
+- ethers.js
+
+🚀 Getting Started
+1. Clone the repo
+```
+git clone https://github.com/kunalpaliwal13/NotchWal-Crypto-Wallet.git
+cd NotchWal-Crypto-Wallet
+```
+2. Install dependencies
+```
+npm install
+```
+3. Set up environment
+Create a .env file and add your Infura or Alchemy URL:
+```
+VITE_ALCHEMY_URL=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
+
+```
+
+🧠 Run the App
+```
+npm run dev
+```
+
+Screenshot: 
+
+![image](https://github.com/user-attachments/assets/5b5ec08b-ac43-47cf-a864-328e1991e918)
+
+
+
+
+
+
