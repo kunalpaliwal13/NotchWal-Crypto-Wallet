@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/a3004415-85d1-4e5e-8503-5cc95699d1b6)# NotchWal
 
 🦊 Ethereum Wallet App (Vite + React)
 A lightweight Ethereum wallet generator built with React + Vite. It creates a new Ethereum wallet in-browser and fetches its balance using the ethers.js library.
